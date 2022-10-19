@@ -36,6 +36,15 @@ const Home = () => {
           <Link href="/dynamic-api-routes/123">动态 API 路由</Link>
         </li>
       </ul>
+      <h3>错误</h3>
+      <ul>
+        <li>
+          <Link href="/404">404</Link>
+        </li>
+        <li>
+          <Link href="/error">500</Link>
+        </li>
+      </ul>
     </div>
   )
 }

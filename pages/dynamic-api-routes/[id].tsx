@@ -10,7 +10,15 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async context => {
   const { id } = context.params
 
-  const { method } = await fetch(`http://localhost:3000/api/dynamic-api-routes/${id}`).then(res => res.json())
+  let method = `GET With ${id}`
+
+  if (process.env.NODE_ENV === 'development') {
+    method = (
+      await fetch(`http://localhost:3000/api/dynamic-api-routes/${id}`)
+        .then(res => res.json())
+        .then(res => res)
+    ).method
+  }
 
   return {
     props: { method },
