@@ -21,7 +21,6 @@ const Home = () => {
         <li>
           <Link href="/csr-swr">Client-side Rendering Using SWR</Link>
         </li>
-
         <li>
           <Link href="/dynamic-routes/123">Dynamic Routes</Link>
         </li>
