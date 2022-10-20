@@ -1,9 +1,8 @@
 <p align="center">
-  <img src="https://assets.vercel.com/image/upload/v1662130559/nextjs/Icon_light_background.png" height="128">
-  <h1 align="center">Next.js</h1>
+  <img src="./public/favicon.svg" height="128">
 </p>
 
-The React Framework for Production.
+<h4 align="center">The React Framework for Production.</h4>
 
 ## Page Rendering
 
