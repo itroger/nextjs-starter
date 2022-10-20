@@ -10,8 +10,9 @@ const APIRoutes = () => {
     <div>
       <h2>API Routes</h2>
       <p>
-        使用 <code>pages/api</code> 创建 API 路由
+        使用 <code>pages/api</code> 创建 API 路由。
       </p>
+      <h3>Example</h3>
       <p>HTTP Request Method: {data?.method}</p>
     </div>
   )

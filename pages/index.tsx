@@ -3,40 +3,39 @@ import Link from 'next/link'
 const Home = () => {
   return (
     <div>
-      <h2>Example: Next.js</h2>
-      <h3>The React Framework for Production.</h3>
-      <h3>页面渲染</h3>
+      <h2>The React Framework for Production.</h2>
+      <h3>Page Rendering</h3>
       <ul>
         <li>
-          <Link href="/ssg">静态生成</Link>
+          <Link href="/ssg">Static Site Generation</Link>
         </li>
         <li>
-          <Link href="/ssg-data">静态生成-有数据</Link>
+          <Link href="/ssg-data">Static Site Generation With Data</Link>
         </li>
         <li>
-          <Link href="/ssr">服务端渲染</Link>
+          <Link href="/ssr">Server-side Rendering</Link>
         </li>
         <li>
-          <Link href="/csr-fetch">客户端渲染-fetch</Link>
+          <Link href="/csr-fetch">Client-side Rendering Using Fetch</Link>
         </li>
         <li>
-          <Link href="/csr-swr">客户端渲染-swr</Link>
+          <Link href="/csr-swr">Client-side Rendering Using SWR</Link>
         </li>
 
         <li>
-          <Link href="/dynamic-routes/123">动态路由</Link>
+          <Link href="/dynamic-routes/123">Dynamic Routes</Link>
         </li>
       </ul>
-      <h3>API 路由</h3>
+      <h3>API Routes</h3>
       <ul>
         <li>
-          <Link href="/api-routes">API 路由</Link>
+          <Link href="/api-routes">API Routes</Link>
         </li>
         <li>
-          <Link href="/dynamic-api-routes/123">动态 API 路由</Link>
+          <Link href="/dynamic-api-routes/123">Dynamic API Routes</Link>
         </li>
       </ul>
-      <h3>错误</h3>
+      <h3>Error Pages</h3>
       <ul>
         <li>
           <Link href="/404">404</Link>

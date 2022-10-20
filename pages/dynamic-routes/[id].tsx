@@ -23,9 +23,12 @@ const DynamicRoutes = props => {
     <div>
       <h2>Dynamic Routes</h2>
       <p>
-        使用 <code>page/xx/[id].tsx</code> 创建动态路由
+        使用 <code>page/xx/[id].tsx</code> 创建动态路由。
       </p>
-      <p>使用 getStaticPaths 和 getStaticProps 根据特定路由获取相应数据</p>
+      <p>
+        使用 <code>getStaticPaths</code> 和 <code>getStaticProps</code> 根据特定路由获取相应数据。
+      </p>
+      <h3>Example</h3>
       <p>
         Render: {render} With {id}
       </p>

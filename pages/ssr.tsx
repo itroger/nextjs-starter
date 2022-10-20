@@ -14,7 +14,10 @@ const SSR = props => {
   return (
     <div>
       <h2>Server-side Rendering</h2>
-      <p>使用 getServerSideProps 通过 props 传递数据给页面组件</p>
+      <p>
+        使用 <code>getServerSideProps</code> 通过 props 传递数据给页面组件。
+      </p>
+      <h3>Example</h3>
       <p>Render: {render}</p>
     </div>
   )

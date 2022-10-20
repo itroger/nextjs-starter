@@ -8,6 +8,7 @@ const App = ({ pageProps, Component }: AppProps) => {
     <Layout>
       <Head>
         <title>Example: Next.js</title>
+        <link rel="icon" href="/favicon.svg" type="image/svg" />
       </Head>
       <Component {...pageProps} />
     </Layout>

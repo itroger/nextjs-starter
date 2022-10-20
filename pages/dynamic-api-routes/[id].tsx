@@ -35,6 +35,7 @@ const DynamicAPIRoutes = props => {
       <p>
         使用 <code>pages/api/xx/[id].ts</code> 创建动态 API 路由
       </p>
+      <h3>Example</h3>
       <p>HTTP Request Method: {method}</p>
     </div>
   )
