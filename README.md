@@ -2,7 +2,7 @@
   <img src="./public/favicon.svg" height="128">
 </p>
 
-<h4 align="center">The React Framework for Production.</h4>
+<h2 align="center">The React Framework for Production.</h2>
 
 ## Page Rendering
 
