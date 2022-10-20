@@ -1,8 +1,8 @@
-<p align="center">
+<h1 align="center">
   <img src="./public/favicon.svg" height="128">
-</p>
+</h1>
 
-<h2 align="center">The React Framework for Production.</h2>
+<h4 align="center">The React Framework for Production.</h4>
 
 ## Page Rendering
 
